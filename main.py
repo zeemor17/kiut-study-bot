@@ -286,7 +286,8 @@ async def main():
         print(f"🌐 Healthcheck web server ishga tushdi: port {os.getenv('PORT')}")
 
     print("🚀 Bot Admin Panel bilan muvaffaqiyatli ishga tushdi!")
-    await dp.start_polling(bot)
+    await bot.delete_webhook(drop_pending_updates=True)
+    await dp.start_polling(bot, drop_pending_updates=True)
 
 if __name__ == "__main__":
     asyncio.run(main())

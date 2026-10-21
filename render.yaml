@@ -13,3 +13,4 @@ services:
         sync: false
       - key: TTS_VOICE
         value: uz-UZ-SardorNeural
+
