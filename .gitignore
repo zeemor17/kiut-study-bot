@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment variables (MAXFIY KALITLAR)
+.env
+
+# Vaqtinchalik fayllar
+temp_media/
+__pycache__/
+*.pyc
+
+# Local Database
+bot_database.db
+
+# IDE
+.vscode/
+.idea/
